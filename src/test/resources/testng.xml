@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JSONPlaceholder API Test Suite">
+    <test name="Posts API Tests">
+        <classes>
+            <class name="com.demo.jsondemo.tests.PostsTests"/>
+        </classes>
+    </test>
+    <test name="Data Driven Tests">
+        <classes>
+            <class name="com.demo.jsondemo.tests.PostsDataDrivenTests"/>
+        </classes>
+    </test>
+    <test name="Database Integration Tests">
+        <classes>
+            <class name="com.demo.jsondemo.tests.DatabaseTests"/>
+        </classes>
+    </test>
+    <test name="Data Generator Tests">
+        <classes>
+            <class name="com.demo.jsondemo.tests.DataGeneratorTests"/>
+        </classes>
+    </test>
+</suite>
